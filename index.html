@@ -4,26 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="bo">
+    <div class="box">
+        <form duck="answers">
+            <label for="fullname">Full name:</label><br>
+            <input type="text" id="fullname" name="fullname" value=""><br>
 
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value=""><br><br>
+
+            <label for="msregarding">Message regarding</label><br>
+            <input type="text" id="meregarding" name="msregarding" value=""><br><br>
+
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="5" rows="1"></textarea><br>
+            <button class="send-message">send message</button>
+        </form>
+        <!--<div class="rubberduck">
+            <img src="styles/images/hiclipart 2.png" alt="duck">
+        </div>-->
     </div>
-    <form duck="answers">
-        <label for="fullname">Full name:</label><br>
-        <input type="text" id="fullname" name="fullname" value=""><br>
-       
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" value=""><br><br>
-        
-        <label for="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        
-        <input type="send message" value="send message">
-    </form>
-
 </body>
 
 </html>
