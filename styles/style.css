@@ -42,7 +42,7 @@ textarea {
     width: 100%;
     background: linear-gradient(to right,
             #BE0909 0%,
-            #BE0909 65%,
+            #BE0909 56%,
             #FFB039 20%,
             #FFB039 50%)
 }
@@ -60,4 +60,8 @@ textarea {
 .send-message:hover {
     background-color: #5aa7b1;
     color: white;
+}
+.rubberduck{
+    position: absolute; 
+    transform: translate(45%, -60%)
 }
