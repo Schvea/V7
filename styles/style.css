@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    align-items: center;
+}
+
+label {
+    display: block;
+}
