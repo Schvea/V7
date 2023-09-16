@@ -32,8 +32,13 @@ textarea {
     border: none;
     border-bottom: 1px solid #9DBEBB;
 }
-.duckform{
+
+.duckform {
     transform: translate(64px, 65px);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
 }
 
 .box {
@@ -61,7 +66,8 @@ textarea {
     background-color: #5aa7b1;
     color: white;
 }
-.rubberduck{
-    position: absolute; 
+
+.rubberduck {
+    position: absolute;
     transform: translate(45%, -60%)
 }
