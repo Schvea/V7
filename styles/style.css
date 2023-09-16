@@ -19,19 +19,23 @@ input {
     display: flex;
     background: transparent;
     border: none;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #9DBEBB;
 }
 
 label {
     display: flex;
 }
 
-textarea{
+textarea {
     resize: none;
     background: none;
     border: none;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #9DBEBB;
 }
+.duckform{
+    transform: translate(64px, 65px);
+}
+
 .box {
     margin-top: 154px;
     min-height: 594px;
@@ -41,4 +45,19 @@ textarea{
             #BE0909 65%,
             #FFB039 20%,
             #FFB039 50%)
+}
+
+.send-message {
+    width: 202px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #468189;
+    transition-duration: 0.4s;
+
+}
+
+.send-message:hover {
+    background-color: #5aa7b1;
+    color: white;
 }
